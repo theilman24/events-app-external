@@ -1,8 +1,12 @@
 <ul >
   {{#events}}
-    <li>
-        <h2>{{ title }}</h2>
-        <p>{{ description }}</p>
-    </li>
+    <table>
+        <tr>
+            <th>Event Title></th><th>Event Description</th>
+        </tr>
+        <tr>
+            <td>{{ title }}</td> <td>{{ description }}</td>
+        </tr>
+    </table>
   {{/events}}
 </ul>
